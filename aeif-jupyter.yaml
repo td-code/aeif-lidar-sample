@@ -1,0 +1,22 @@
+name: aeif-jupyter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - scipy
+  - ipython
+  - jupyter
+  - tqdm
+  - Pillow 
+  - dill 
+  - open3d
+  - ipykernel
+  - seaborn
+  - pip
+  - pip:
+      - aeif-dataset=0.8.5
